@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador de texto</title>
 </head>
 <body>
     <header>
-        <div >
+        <div class="logo">
             <img src="imagenes/Logo_alura.png" alt="">
         </div>
     </header>
 
     <main>
-        <h1>hola</h1>
-        <h2>encriptador live</h2>
-        <h2>practica para github</h2>
-
-        <input type="text">
+        <form action="">
+            <label for="mensaje"></label>
+            <input type="text" name="" id="" class="input-padron" placeholder="Ingrese el texto aqui">
+        </form>
         
         <script src="diseño.js"></script>
     </main>
@@ -27,6 +27,19 @@
     
 </body>
 <footer>
+    <table>
+        <thead>
+            <p>solo letras minusculas y sin acento</p>
+        </thead>
+        <tbody>
+            <tr>
+                <input type="submit" value="encriptar" class="encriptar">
+            </tr>
+            <tr>        
+                <input type="submit" value="descencriptar"      class="descencriptar">
+            </tr>
+        </tbody>
+    </table>
 
 </footer>
 </html>

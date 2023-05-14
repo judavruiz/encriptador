@@ -1,0 +1,39 @@
+form{
+    margin: 40px 0;
+    padding-block-end: 30%;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 20px;
+}
+.encriptar{
+    width: 20%;
+    padding: 10px 0;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    border:none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.descencriptar{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:blue;
+    background: #BBBBBB;
+    border:2px solid blue;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.enviar:hover{
+    transform: scale(1);
+}
